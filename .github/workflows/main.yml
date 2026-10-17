@@ -19,7 +19,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install packages
-        run: pip install requests feedparser
+        run: pip install requests feedparser trafilatura
 
       - name: Run bot
         env:
